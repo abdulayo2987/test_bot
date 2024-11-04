@@ -7,7 +7,6 @@ from responses import get_response
 # get token
 load_dotenv()
 TOKEN = str(os.getenv('DISCORD_TOKEN'))
-
 intents: Intents = Intents.default()
 intents.message_content = True
 client: Client = Client(intents=intents)
@@ -43,7 +42,7 @@ async def on_message(message: Message) -> None:
 
 
 def main() -> None:
-    client.run(token=str('MTI5NTg5NDc5NzE3NzA2NTUzMw.G9b5xk.2IOE8lLXdfvOkg2kV1M5d97J29n7_ANup6t0fU'))
+    client.run(str(TOKEN))
 
 
 if __name__ == '__main__':
