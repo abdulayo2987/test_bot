@@ -48,4 +48,3 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 
-# git config --global user.email "Ramennoodles2006@outlook.com" git config --global user.name "abdulayo2987"
