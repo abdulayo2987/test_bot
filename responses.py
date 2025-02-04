@@ -6,8 +6,8 @@ def get_response(user_inputs: str)-> str:
     lowered: str = user_inputs.lower()
 
     if lowered == '':
-        return 'Welll your quiet'
+        return 'Well your quiet'
     elif 'hello' in lowered:
         return 'Hello there'
     else:
-        return 'stfu'
+        return 'message'
